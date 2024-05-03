@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.arrow-img {
+  height: 16px;
+  width: 16px;
+}
+
+.arrow-icon {
+  background-color: white;
+  border: none;
+  border-outline: none;
+}
+
+.eachList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 6px;
+}
+
+@media all and (min-width: 767px) {
+  .arrow-img {
+    height: 20px;
+    width: 20px;
+    font-weight: 900;
+  }
+  .suggestion-text {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 6px;
+  }
+}
